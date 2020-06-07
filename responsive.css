@@ -1,0 +1,83 @@
+/* すべての要素に対して box-sizing: border-box; を指定してください */
+*{
+  box-sizing: border-box;
+ }
+
+
+
+/* タブレット向けレイアウト */
+@media all and (max-width: 1000px) {
+  .lesson{
+    width: 50%;
+  }
+
+
+
+}
+
+/* モバイル向けレイアウト */
+@media all and (max-width: 670px) {
+  .lesson{
+    width: 100%;
+  }
+
+  footer{
+    text-align: center;
+  }
+
+  .btn{
+    width: 100%;
+    margin: 5px 0;
+  }
+
+  .top-wrapper h1{
+  font-size: 24px;
+
+  }
+
+  .top-wrapper p{
+    font-size: 14px;
+    margin-top: 20px;
+  }
+
+  .menu-icon{
+    display: block;
+  }
+
+  .top-right{
+    display: none;
+  }
+
+  .top-wrapper{
+    text-align: left;
+  }
+
+  .btn-wrapper p{
+    margin: 10px 0;
+  }
+
+  .down{
+    line-height: 1.2;
+    font-size: 14px;
+    padding-right: 8px;
+    padding-left: 8px;
+  }
+
+  .sign{
+    margin-top: 30px;
+  }
+
+  .h2{
+  font-size: 9px;
+  }
+
+  .lesson{
+    margin-bottom: 40px;
+  }
+  .sassoku{
+    width: 100%;
+
+  }
+
+
+}
